@@ -28,10 +28,7 @@ The Flask app exposes custom metrics which are scraped by Prometheus, and visual
 - **Azure App Service** (Deployment target)
 
 ##   Setup Instructions
-1. Clone the repo:
-  git clone https://github.com/<your-username>/flask-prometheus-grafana.git
-  cd flask-prometheus-grafana
-Create a virtual environment and install dependencies:
+1. Create a virtual environment and install dependencies:
 pip install -r requirements.txt
 Run the Flask app:
 python app.py
